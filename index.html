@@ -20,20 +20,49 @@
     <title>Portfolio - Ewan Tindale</title>
   </head>
   <body class="bg-dark text-light">
-    <div
-      class="container text-center pb-5 pt-5 text-light border-bottom border-light"
-    >
-      <h1 class="display-3">Ewan Tindale</h1>
-      <h2>Software Engineer / Web Developer</h2>
+    <div class="container pb-5 pt-5 text-light border-bottom border-light">
+      <h1 class="display-4">Ewan Tindale</h1>
+      <h5>Software Developer</h5>
     </div>
-    <!-- <div class="parallax"></div> -->
-    <div class="container mt-5 mb-5">
-      <h2>Social Media Web App</h2>
+    <div class="container pt-5 pb-5 d-flex border-bottom border-light">
+      <div class="w-75">
+        <p>Hi, I'm Ewan.</p>
+        <p>
+          I'm a (mostly) self-taught programmer. I've been building things like
+          games and websites since I was a teenager.
+        </p>
+        <p>
+          While most of these were just for fun, I did create the ecommerce
+          website for my parent's online business, as well as doing some
+          freelancing, mostly fixing up websites and integrating mailing lists
+          on WordPress websites.
+        </p>
+        <p>
+          I've also custom built all of my PCs over the last ~10 years, built a
+          significant following on
+          <a href="https://www.twitch.tv/ewanhc/">Twitch</a>
+          and competed as a
+          <a href="https://youtu.be/QbbKQkNfvjI">professional esports player</a
+          >.
+        </p>
+        <p>
+          Earlier this year I decided to look for a job as a developer. I began
+          familiarising myself with modern full-stack web development and built
+          a number of portfolio projects which are detailed below.
+        </p>
+      </div>
+      <img src="/images/me.jpeg" class="img-fluid w-25 ml-5" />
+    </div>
+
+    <div class="container pt-5 pb-5">
+      <h1 class="mb-5">Projects</h1>
+      <h2>Full Stack Social Media App</h2>
       <img
         src="/images/social/feed.png"
-        class="img-fluid mb-2"
+        class="img-fluid mb-2 border border-light"
         alt="Responsive image"
       />
+
       <ul class="list-inline">
         <li class="list-inline-item">
           <a href="#" target="_blank" class="btn btn-outline-light"
@@ -50,37 +79,42 @@
         </li>
       </ul>
       <p>
-        <b>Technologies: React, Redux, NodeJS, Express, MongoDB, HTML, SASS</b>
+        <b
+          >Technologies: React, Redux, NodeJS, Express, MongoDB, HTML,
+          CSS/SASS</b
+        >
       </p>
       <ul>
         <li>
-          Social media app allowing users to sign up, create posts, like and
+          Social media web app allowing users to sign up, create posts, like and
           comment on others posts and send direct messages.
         </li>
-        <li>Uses React and Redux on the frontend, styled using SASS.</li>
+        <li>Uses React and Redux on the frontend, styled using CSS/SASS.</li>
         <li>
           Uses Express + NodeJS on the backend, communicating with a MongoDB
           database.
         </li>
-        <li>JWT authentication and password hashing using bcrypt.</li>
+        <li>
+          Implements JWT authentication and password hashing using bcrypt.
+        </li>
       </ul>
     </div>
 
-    <div class="container mt-5 mb-5">
+    <div class="container pt-5 pb-5">
       <h2>Workout Tracker Mobile App</h2>
       <img
         src="/images/workout/Welcome.png"
-        class="img-fluid mb-2 w-25"
+        class="img-fluid mb-2 w-25 border border-light"
         alt="Responsive image"
       />
       <img
         src="/images/workout/WorkoutInProgress.png"
-        class="img-fluid mb-2 w-25"
+        class="img-fluid mb-2 w-25 border border-light"
         alt="Responsive image"
       />
       <img
         src="/images/workout/WorkoutLog.png"
-        class="img-fluid mb-2 w-25"
+        class="img-fluid mb-2 w-25 border border-light"
         alt="Responsive image"
       />
 
@@ -97,12 +131,12 @@
       <p><b>Technologies: React Native, Redux, Firebase, NoSQL, CSS</b></p>
       <ul>
         <li>
-          Guides the user through a workout designed to build strength and
-          muscle, as well as logging their workouts to track their progress over
-          time.
+          Guides the user through a workout program designed to build strength
+          and muscle, as well as logging their workouts to track their progress
+          over time.
         </li>
         <li>
-          Serverless app, using React Native/Redux on the frontend and
+          Serverless app, using React Native and Redux on the frontend and
           communicating directly with Firebase for authentication and data
           storage.
         </li>
@@ -117,6 +151,88 @@
         </li>
       </ul>
     </div>
+
+    <div class="container pt-5 pb-5">
+      <h2>The Backyard Larder website</h2>
+      <img
+        src="/images/backyardlarder/backyardlarder.png"
+        class="img-fluid mb-2 border border-light"
+        alt="Responsive image"
+      />
+
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a
+            href="https://backyardlarder.co.uk/"
+            target="_blank"
+            class="btn btn-outline-light"
+            ><i class="fab fa-github mr-1"></i>Visit Site</a
+          >
+        </li>
+      </ul>
+      <p><b>Technologies: WordPress, PHP, HTML, CSS</b></p>
+      <ul>
+        <li>
+          The website for my parents' online gardening business.
+        </li>
+        <li>
+          Fully custom theme built using PHP, HTML and CSS.
+        </li>
+        <li>
+          Integrates an online store, blog, mailing list and contact form.
+        </li>
+        <li>
+          Since creating this site, the mailing list has grown to almost 1000
+          members and the business now provides them with a full-time income.
+        </li>
+      </ul>
+    </div>
+
+    <div class="container pt-5 pb-5">
+      <h2>This portfolio website</h2>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a
+            href="https://github.com/ewantindale/portfolio"
+            target="_blank"
+            class="btn btn-outline-light"
+            ><i class="fab fa-github mr-1"></i>View Source Code</a
+          >
+        </li>
+      </ul>
+      <p><b>Technologies: HTML, CSS, Bootstrap, CD</b></p>
+      <ul>
+        <li>
+          A basic static site styled with the Bootstrap CSS framework.
+        </li>
+        <li>
+          Hosted on Netlify with continuous deployment from its Git repository.
+        </li>
+      </ul>
+    </div>
+
+    <form
+      name="contact"
+      class="container pt-5 pb-5 border-top border-light"
+      method="POST"
+      data-netlify="true"
+    >
+      <h1 class="mb-5">Contact me</h1>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" class="form-control" />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" class="form-control" />
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" class="form-control"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Send</button>
+    </form>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
