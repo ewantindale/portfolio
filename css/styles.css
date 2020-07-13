@@ -11,3 +11,17 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media only screen and (min-width: 1000px) {
+  .bio-container {
+    display: flex;
+  }
+  .bio {
+    width: 75%;
+  }
+  .bio-image {
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+  }
+}
