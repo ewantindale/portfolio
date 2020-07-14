@@ -12,6 +12,15 @@
   background-size: cover;
 }
 
+a {
+  text-decoration: underline;
+  color: #f8f9fa;
+}
+
+a.btn {
+  text-decoration: none;
+}
+
 @media only screen and (min-width: 1000px) {
   .bio-container {
     display: flex;
