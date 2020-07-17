@@ -59,11 +59,36 @@
     <div class="container pt-5 pb-2">
       <h1 class="mb-5">Projects</h1>
       <h2>Full Stack Social Media App</h2>
-      <img
-        src="/images/social/social2.png"
-        class="img-fluid mb-2 shadow rounded"
-        alt="Responsive image"
-      />
+
+      <div
+        id="carouselExampleControls"
+        class="carousel slide carousel-fade pb-2"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active align-center">
+            <img
+              src="/images/social/social2.png"
+              class="d-block img-fluid"
+              alt="Responsive image"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/images/social/social2_5.png"
+              class="d-block img-fluid"
+              alt="Responsive image"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/images/social/social2_3.png"
+              class="d-block img-fluid"
+              alt="Responsive image"
+            />
+          </div>
+        </div>
+      </div>
 
       <ul class="list-inline">
         <li class="list-inline-item">
@@ -94,7 +119,10 @@
           Social media web app allowing users to sign up, create posts, comment
           on others posts, and like posts and comments.
         </li>
-        <li>Uses React and Redux on the frontend, styled using CSS/SASS.</li>
+        <li>
+          Uses React and Redux on the frontend, styled using CSS/SASS with a
+          responsive design.
+        </li>
         <li>
           Uses Express + NodeJS on the backend, communicating with a MongoDB
           database.
