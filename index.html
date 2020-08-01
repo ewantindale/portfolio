@@ -1,388 +1,402 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Grayscale - Start Bootstrap Theme</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
       crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round"
+      rel="stylesheet"
     />
-    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
-
-    <title>Portfolio - Ewan Tindale</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
   </head>
-  <body class="bg-dark text-light">
-    <section class="jumbotron jumbotron-fluid text-center bg-dark mb-0">
+  <body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <h1 class="text-light display-4">Ewan Tindale</h1>
-        <h5 class="text-light">Software Engineer</h2>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"
+          >Ewan Tindale</a
+        >
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#reviews"
+                >Testimonials</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+      <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+          <h1 class="mx-auto my-0 text-uppercase">Ewan Tindale</h1>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5">
+            Software Engineer | Web Developer
+          </h2>
+          <a
+            class="btn btn-outline-light border border-light js-scroll-trigger"
+            href="#projects"
+            >View Projects</a
+          >
+        </div>
+      </div>
+    </header>
+    <!-- Projects-->
+    <section class="projects-section bg-light" id="projects">
+      <div class="container">
+        <!-- Featured Project Row-->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7 shadow-lg">
+            <img
+              class="img-fluid mb-3 mb-lg-0"
+              src="/images/PhotoGallery.png"
+              alt=""
+            />
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>Laravel Photo Gallery</h4>
+              <p class="text-black-50 mb-0">
+                Photo gallery app allowing users to view, upload and delete
+                photos with a title and description. Deployed using Amazon Web
+                Services (EC2, S3, RDS).
+              </p>
+              <p>PHP, Laravel, HTML, CSS, Bootstrap, MySQL, AWS</p>
+              <div class="d-flex flex-row">
+                <a
+                  href="http://photogallery.eu-west-2.elasticbeanstalk.com/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/ewantindale/laravel-photo-gallery"
+                  class="btn btn-primary ml-2"
+                  target="_blank"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Featured Project Row-->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7 shadow-lg">
+            <img
+              class="img-fluid mb-3 mb-lg-0"
+              src="/images/social/social2_4.png"
+              alt=""
+            />
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>React Social Media App</h4>
+              <p class="text-black-50 mb-0">
+                Social media web app allowing users to sign up, create posts,
+                comment on others posts, and like posts and comments. Deployed
+                using Heroku (can take some time to load due to their free
+                service limitations).
+              </p>
+              <p>React, Redux, HTML, CSS/SASS, NodeJS, Express, MongoDB</p>
+              <div class="d-flex flex-row">
+                <a
+                  href="https://ewan-social.herokuapp.com/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/ewantindale/Social2"
+                  class="btn btn-primary ml-2"
+                  target="_blank"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Featured Project Row-->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7 d-flex shadow-lg">
+            <img
+              class="img-fluid mb-3 mb-lg-0 w-25"
+              src="/images/workout/Welcome.png"
+              alt=""
+            />
+            <img
+              class="img-fluid mb-3 mb-lg-0 w-25"
+              src="/images/workout/WorkoutInProgress.png"
+              alt=""
+            />
+            <img
+              class="img-fluid mb-3 mb-lg-0 w-25"
+              src="/images/workout/EditWorkingWeight.png"
+              alt=""
+            />
+            <img
+              class="img-fluid mb-3 mb-lg-0 w-25"
+              src="/images/workout/WorkoutLog.png"
+              alt=""
+            />
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>Workout Tracker Mobile App</h4>
+              <p class="text-black-50 mb-0">
+                Guides the user through a workout program designed to build
+                strength and muscle, as well as logging their workouts to track
+                their progress over time.
+              </p>
+              <p>React Native, Redux, Firebase</p>
+              <div class="d-flex flex-row">
+                <!-- <a href="" class="btn btn-primary">Live Demo</a> -->
+                <a
+                  href="https://github.com/ewantindale/workout-tracker-firebase"
+                  class="btn btn-primary ml-2"
+                  target="_blank"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Featured Project Row-->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7 d-flex shadow-lg">
+            <img
+              class="img-fluid mb-3 mb-lg-0"
+              src="/images/backyardlarder/backyardlarder.png"
+              alt=""
+            />
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>The Backyard Larder</h4>
+              <p class="text-black-50 mb-0">
+                Ecommerce website for my parents' online gardening business.
+                Features a fully custom theme with integrated store, blog and
+                mailing list.
+              </p>
+              <p>WordPress, PHP, HTML, CSS</p>
+              <div class="d-flex flex-row">
+                <a
+                  href="https://backyardlarder.co.uk/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Visit Site</a
+                >
+                <!-- <a href="" class="btn btn-primary ml-2">Source Code</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Featured Project Row-->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7 d-flex shadow-lg">
+            <img
+              class="img-fluid mb-3 mb-lg-0"
+              src="/images/portfolio.png"
+              alt=""
+            />
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>This Portfolio Website</h4>
+              <p class="text-black-50 mb-0">
+                Static site styled using the Bootstrap framework and modified
+                <a href="https://startbootstrap.com/themes/grayscale/"
+                  >Greyscale theme</a
+                >. Deployed on Netlify using continuous deployment from its
+                GitHub repository.
+              </p>
+              <p>HTML, CSS, JavaScript, Bootstrap</p>
+              <div class="d-flex flex-row">
+                <a
+                  href="https://github.com/ewantindale/portfolio/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Source Code</a
+                >
+                <!-- <a href="" class="btn btn-primary ml-2">Source Code</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <div class="container pt-5 pb-5 border-bottom border-top border-light bio-container">
-      <div class="bio">
-        <p>Hi, I'm Ewan.</p>
-        <p>
-          I am a (mostly) self-taught programmer. I've been building things like
-          games and websites since I was a teenager.
-        </p>
-        <p>
-          I created the ecommerce website for my parents' online business, enabling them to make a full time living doing what they love.
-        </p>
-        <p>As a freelancer, I've worked with clients all over the world to improve their websites and received glowing reviews.</p>
-        <p>
-          I've also custom built all of my PCs over the last ~10 years, grown a
-          significant following on
-          <a href="https://www.twitch.tv/ewanhc/">Twitch</a>
-          and competed as a
-          <a href="https://youtu.be/QbbKQkNfvjI">professional esports player</a
-          >.
-        </p>
-        <p>
-          Earlier this year I decided to look for a full-time role as a
-          developer. I began to teach myself the languages and tools used in
-          modern full-stack web development and built a number of portfolio
-          projects which are detailed below.
-        </p>
-      </div>
-      <div class="bio-image w-25">
-        <img src="/images/me2.jpg" class="img-fluid" alt="Ewan Tindale" />
-      </div>
-    </div>
-
-    <div class="container pt-5 pb-2">
-      <h1 class="mb-5">Projects</h1>
-
-      <!-- -->
-      <h2>Laravel Photo Gallery</h2>
-
-      <img
-        src="/images/PhotoGallery.png"
-        class="img-fluid w-75 mb-2 shadow rounded"
-        alt="Responsive image"
-      />
-
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a
-            href="http://photogallery.eu-west-2.elasticbeanstalk.com/"
-            target="_blank"
-            class="btn btn-outline-light"
-            ><i class="fas fa-globe mr-1"></i>Visit Site</a
+    <!-- Client Reviews -->
+    <section class="about-section text-center" id="reviews">
+      <div class="container">
+        <h2 class="text-white mb-4">
+          Reviews from some of my freelancing clients
+        </h2>
+        <div class="mb-2 text-white p-2">
+          <i>
+            “Ewan was articulate, friendly and provided excellent service. He
+            worked incredibly fast to deliver my project (ninja fast actually!).
+            I'm extremely happy and pleased with his work. I'm also happy to
+            hire Ewan again.”</i
           >
-        </li>
-        <li class="list-inline-item">
-          <a
-            href="https://github.com/ewantindale/laravel-photo-gallery"
-            target="_blank"
-            class="btn btn-outline-light"
-            ><i class="fab fa-github mr-1"></i>View Source Code</a
-          >
-        </li>
-      </ul>
-      <p>
-        <b
-          >Technologies: PHP, Laravel, MySQL, Amazon Web Services, HTML/CSS,
-          Bootstrap</b
-        >
-      </p>
-      <ul>
-        <li>
-          Photo gallery app allowing users to view, upload and delete photos
-          with a title and description.
-        </li>
-        <li>
-          Built using PHP and the Laravel framework.
-        </li>
-        <li>
-          Deployed to AWS using Elastic Beanstalk.
-        </li>
-        <li>
-          Uses a MySQL database hosted on Amazon RDS.
-        </li>
-        <li>
-          Uses an Amazon S3 bucket to store images.
-        </li>
-      </ul>
-    </div>
-    <!-- -->
-    <div class="container pt-5 pb-2">
-      <h2>Full Stack Social Media App</h2>
-
-      <div
-        id="carouselExampleControls"
-        class="carousel slide carousel-fade pb-2"
-        data-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active align-center">
-            <img
-              src="/images/social/social2.png"
-              class="d-block w-75  img-fluid"
-              alt="Responsive image"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="/images/social/social2_5.png"
-              class="d-block w-75  img-fluid"
-              alt="Responsive image"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="/images/social/social2_3.png"
-              class="d-block w-75  img-fluid"
-              alt="Responsive image"
-            />
+          <div>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i
+            ><i class="fas fa-star"></i><i class="fas fa-star"></i
+            ><i class="fas fa-star"></i>
           </div>
         </div>
-      </div>
-
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a
-            href="https://ewan-social.herokuapp.com/"
-            target="_blank"
-            class="btn btn-outline-light"
-            ><i class="fas fa-globe mr-1"></i>Visit Site</a
+        <div class="mb-2 text-white p-2">
+          <i
+            >“Professional and fast! Really enjoyed working with this
+            seller.”</i
           >
-        </li>
-        <li class="list-inline-item">
-          <a
-            href="https://github.com/ewantindale/Social2"
-            target="_blank"
-            class="btn btn-outline-light"
-            ><i class="fab fa-github mr-1"></i>View Source Code</a
-          >
-        </li>
-      </ul>
-      <p>
-        <b
-          >Technologies: React, Redux, NodeJS, Express, MongoDB, HTML,
-          CSS/SASS</b
-        >
-      </p>
-      <ul>
-        <li>
-          Social media web app allowing users to sign up, create posts, comment
-          on others posts, and like posts and comments.
-        </li>
-        <li>
-          Uses React and Redux on the frontend, styled using CSS/SASS with a
-          responsive design.
-        </li>
-        <li>
-          Uses Express + NodeJS on the backend, communicating with a MongoDB
-          database.
-        </li>
-        <li>
-          Implements JWT authentication and password hashing using bcrypt.
-        </li>
-      </ul>
-    </div>
-
-    <div class="container pt-5 pb-2">
-      <h2>Workout Tracker Mobile App</h2>
-      <img
-        src="/images/workout/Welcome.png"
-        class="img-fluid mb-2 w-25 mr-3 shadow rounded"
-        alt="Responsive image"
-      />
-      <img
-        src="/images/workout/WorkoutInProgress.png"
-        class="img-fluid mb-2 w-25 mr-3 shadow rounded"
-        alt="Responsive image"
-      />
-      <img
-        src="/images/workout/WorkoutLog.png"
-        class="img-fluid mb-2 w-25 mr-3 shadow rounded"
-        alt="Responsive image"
-      />
-
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a
-            href="https://github.com/ewantindale/workout-tracker-firebase"
-            target="_blank"
-            class="btn btn-outline-light"
-            ><i class="fab fa-github mr-1"></i>View Source Code</a
-          >
-        </li>
-      </ul>
-      <p><b>Technologies: React Native, Redux, Firebase, NoSQL, CSS</b></p>
-      <ul>
-        <li>
-          Guides the user through a workout program designed to build strength
-          and muscle, as well as logging their workouts to track their progress
-          over time.
-        </li>
-        <li>
-          Serverless app, using React Native and Redux on the frontend and
-          communicating directly with Firebase for authentication and data
-          storage.
-        </li>
-        <li>
-          Uses Google Signin with Firebase Authentication for a quick and easy
-          sign up process.
-        </li>
-        <li>
-          User data is stored using Cloud Firestore, an offline-first NoSQL
-          database allowing the app to be used with or without an internet
-          connection.
-        </li>
-      </ul>
-    </div>
-
-    <div class="container pt-5 pb-2">
-      <h2>The Backyard Larder website</h2>
-      <img
-        src="/images/backyardlarder/backyardlarder.png"
-        class="img-fluid w-75  mb-2 shadow rounded"
-        alt="Responsive image"
-      />
-
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a
-            href="https://backyardlarder.co.uk/"
-            target="_blank"
-            class="btn btn-outline-light"
-            ><i class="fas fa-globe mr-1"></i>Visit Site</a
-          >
-        </li>
-      </ul>
-      <p><b>Technologies: WordPress, PHP, HTML, CSS</b></p>
-      <ul>
-        <li>
-          The website for my parents' online gardening business.
-        </li>
-        <li>
-          Fully custom theme built using PHP, HTML and CSS.
-        </li>
-        <li>
-          Integrates an online store, blog, mailing list and contact form.
-        </li>
-        <li>
-          Since creating this site, the mailing list has grown to almost 1000
-          members and the business now provides them with a full-time income.
-        </li>
-      </ul>
-    </div>
-
-    <div class="container pt-5 pb-5">
-      <h2>This portfolio website</h2>
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a
-            href="https://github.com/ewantindale/portfolio"
-            target="_blank"
-            class="btn btn-outline-light"
-            ><i class="fab fa-github mr-1"></i>View Source Code</a
-          >
-        </li>
-      </ul>
-      <p><b>Technologies: HTML, CSS, Bootstrap, CD</b></p>
-      <ul>
-        <li>
-          A basic static site styled with the Bootstrap CSS framework.
-        </li>
-        <li>
-          Hosted on Netlify with continuous deployment from its GitHub
-          repository.
-        </li>
-      </ul>
-    </div>
-
-    <div class="container pt-5 pb-5 border-top border-light">
-      <h3 class="mb-4">Reviews from some of my freelancing clients:</h3>
-      <div class="mb-2 border-light rounded p-2">
-        <i>
-          “Ewan was articulate, friendly and provided excellent service. He
-          worked incredibly fast to deliver my project (ninja fast actually!).
-          I'm extremely happy and pleased with his work. I'm also happy to hire
-          Ewan again.”</i
-        >
-        <div>
-          <i class="fas fa-star"></i><i class="fas fa-star"></i
-          ><i class="fas fa-star"></i><i class="fas fa-star"></i
-          ><i class="fas fa-star"></i>
+          <div>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i
+            ><i class="fas fa-star"></i><i class="fas fa-star"></i
+            ><i class="fas fa-star"></i>
+          </div>
         </div>
-      </div>
-      <div class="mb-2 border-light rounded p-2">
-        <i>“Professional and fast! Really enjoyed working with this seller.”</i>
-        <div>
-          <i class="fas fa-star"></i><i class="fas fa-star"></i
-          ><i class="fas fa-star"></i><i class="fas fa-star"></i
-          ><i class="fas fa-star"></i>
+        <div class="mb-2 text-white p-2">
+          <i
+            >“Excellent experience, would do this again for sure. Thank you!”</i
+          >
+          <div>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i
+            ><i class="fas fa-star"></i><i class="fas fa-star"></i
+            ><i class="fas fa-star"></i>
+          </div>
         </div>
+
+        <img class="img-fluid" src="assets/img/ipad.png" alt="" />
       </div>
-      <div class="mb-2 border-light rounded p-2">
-        <i>“Excellent experience, would do this again for sure. Thank you!”</i>
-        <div>
-          <i class="fas fa-star"></i><i class="fas fa-star"></i
-          ><i class="fas fa-star"></i><i class="fas fa-star"></i
-          ><i class="fas fa-star"></i>
-        </div>
-      </div>
+
       <a
         href="https://www.fiverr.com/ewantindale"
         target="_blank"
-        class="btn btn-outline-light mt-4"
-        >Read More Reviews</a
+        class="btn btn-outline-light border border-light mb-4"
+        >Click Here to Read More Reviews</a
       >
-    </div>
-
-    <form
-      name="contact"
-      class="container pt-5 pb-5 border-top border-light"
-      method="POST"
-      data-netlify="true"
-    >
-      <h1 class="mb-5">Contact me</h1>
-      <div class="form-group">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" class="form-control" />
+    </section>
+    <!-- About-->
+    <section class="about-section text-center" id="about">
+      <div class="container">
+        <h2 class="text-white mb-4">About Me</h2>
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <p class="text-white text-left">
+              Hi, I'm Ewan.
+            </p>
+            <p class="text-white text-left">
+              I am a (mostly) self-taught programmer. I've been building things
+              like games and websites since I was a teenager.
+            </p>
+            <p class="text-white text-left">
+              I created the ecommerce website for my parents' online business,
+              enabling them to make a full time living doing what they love.
+            </p>
+            <p class="text-white text-left">
+              As a freelancer, I've worked with clients all over the world to
+              improve their websites and received glowing reviews.
+            </p>
+            <p class="text-white text-left">
+              I've also custom built all of my PCs over the last ~10 years,
+              grown a significant following on
+              <a href="https://www.twitch.tv/ewanhc/">Twitch</a> and competed as
+              a
+              <a href="https://youtu.be/QbbKQkNfvjI"
+                >professional esports player</a
+              >.
+            </p>
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <img src="/images/me2.jpg" class="img-fluid" alt="Ewan Tindale" />
+          </div>
+        </div>
+        <img class="img-fluid" src="assets/img/ipad.png" alt="" />
       </div>
-      <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" class="form-control" />
-      </div>
-      <div class="form-group">
-        <label for="message">Message</label>
-        <textarea name="message" id="message" class="form-control"></textarea>
-      </div>
+    </section>
 
-      <button type="submit" class="btn btn-outline-light">Send</button>
-    </form>
+    <section class="contact-section bg-dark text-light" id="contact">
+      <div class="container">
+        <form name="contact" method="POST" data-netlify="true">
+          <h1 class="mb-5">Contact me</h1>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" class="form-control" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-control" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              class="form-control"
+            ></textarea>
+          </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/b20073db09.js"
-      crossorigin="anonymous"
-    ></script>
+          <button
+            type="submit"
+            class="btn btn-outline-light border border-light"
+          >
+            Send
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer bg-black small text-center text-white-50">
+      <div class="container">Copyright © Ewan Tindale 2020</div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
   </body>
 </html>
