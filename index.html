@@ -101,12 +101,23 @@
               <h4>Laravel Photo Gallery</h4>
               <p class="text-black-50 mb-0">
                 Photo gallery app allowing users to view, upload and delete
-                photos with a title and description.
+                photos with a title and description. Deployed using Amazon Web
+                Services (EC2, S3, RDS).
               </p>
               <p>PHP, Laravel, HTML, CSS, Bootstrap, MySQL, AWS</p>
               <div class="d-flex flex-row">
-                <a href="" class="btn btn-primary">Live Demo</a>
-                <a href="" class="btn btn-primary ml-2">Source Code</a>
+                <a
+                  href="http://photogallery.eu-west-2.elasticbeanstalk.com/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/ewantindale/laravel-photo-gallery"
+                  class="btn btn-primary ml-2"
+                  target="_blank"
+                  >Source Code</a
+                >
               </div>
             </div>
           </div>
@@ -125,12 +136,24 @@
               <h4>React Social Media App</h4>
               <p class="text-black-50 mb-0">
                 Social media web app allowing users to sign up, create posts,
-                comment on others posts, and like posts and comments.
+                comment on others posts, and like posts and comments. Deployed
+                using Heroku (can take some time to load due to their free
+                service limitations).
               </p>
               <p>React, Redux, HTML, CSS/SASS, NodeJS, Express, MongoDB</p>
               <div class="d-flex flex-row">
-                <a href="" class="btn btn-primary">Live Demo</a>
-                <a href="" class="btn btn-primary ml-2">Source Code</a>
+                <a
+                  href="https://ewan-social.herokuapp.com/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/ewantindale/Social2"
+                  class="btn btn-primary ml-2"
+                  target="_blank"
+                  >Source Code</a
+                >
               </div>
             </div>
           </div>
@@ -170,7 +193,12 @@
               <p>React Native, Redux, Firebase</p>
               <div class="d-flex flex-row">
                 <!-- <a href="" class="btn btn-primary">Live Demo</a> -->
-                <a href="" class="btn btn-primary ml-2">Source Code</a>
+                <a
+                  href="https://github.com/ewantindale/workout-tracker-firebase"
+                  class="btn btn-primary ml-2"
+                  target="_blank"
+                  >Source Code</a
+                >
               </div>
             </div>
           </div>
@@ -189,10 +217,17 @@
               <h4>The Backyard Larder</h4>
               <p class="text-black-50 mb-0">
                 Ecommerce website for my parents' online gardening business.
+                Features a fully custom theme with integrated store, blog and
+                mailing list.
               </p>
               <p>WordPress, PHP, HTML, CSS</p>
               <div class="d-flex flex-row">
-                <a href="" class="btn btn-primary">Visit Site</a>
+                <a
+                  href="https://backyardlarder.co.uk/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Visit Site</a
+                >
                 <!-- <a href="" class="btn btn-primary ml-2">Source Code</a> -->
               </div>
             </div>
@@ -215,13 +250,14 @@
                 <a href="https://startbootstrap.com/themes/grayscale/"
                   >Greyscale theme</a
                 >. Deployed on Netlify using continuous deployment from its
-                Github repository.
+                GitHub repository.
               </p>
               <p>HTML, CSS, JavaScript, Bootstrap</p>
               <div class="d-flex flex-row">
                 <a
                   href="https://github.com/ewantindale/portfolio/"
                   class="btn btn-primary"
+                  target="_blank"
                   >Source Code</a
                 >
                 <!-- <a href="" class="btn btn-primary ml-2">Source Code</a> -->
@@ -318,6 +354,37 @@
           </div>
         </div>
         <img class="img-fluid" src="assets/img/ipad.png" alt="" />
+      </div>
+    </section>
+
+    <section class="contact-section bg-dark text-light" id="contact">
+      <div class="container">
+        <form name="contact" method="POST" data-netlify="true">
+          <h1 class="mb-5">Contact me</h1>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" class="form-control" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-control" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              class="form-control"
+            ></textarea>
+          </div>
+
+          <button
+            type="submit"
+            class="btn btn-outline-light border border-light"
+          >
+            Send
+          </button>
+        </form>
       </div>
     </section>
     <!-- Footer-->
