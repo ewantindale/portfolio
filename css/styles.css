@@ -10714,6 +10714,9 @@ body {
     max-width: 30rem;
     font-size: 1.25rem;
   }
+  .about-section img {
+    margin-left: 5rem;
+  }
 }
 
 .about-section {
@@ -10726,7 +10729,7 @@ body {
   );
 }
 .about-section p {
-  margin-bottom: 5rem;
+  /* margin-bottom: 5rem; */
 }
 
 .projects-section {
